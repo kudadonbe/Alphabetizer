@@ -24,7 +24,7 @@ struct Vocabulary {
         "Duck": "🦆",
         "Frog": "🐸",
         "Fox": "🦊",
-        "Goose": "🦆",
+        "Goose": "🪿",
         "Lizard": "🦎",
         "Panda": "🐼",
         "Rabbit": "🐇",

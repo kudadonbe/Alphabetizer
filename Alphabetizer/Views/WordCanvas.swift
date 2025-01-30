@@ -13,14 +13,6 @@ struct WordCanvas: View {
         alphabetizer.tiles
     }
     
-//
-//    @State private var tiles: [Tile] = [
-//        
-//        
-//        Tile(word: "First"),
-//        Tile(word: "Second"),
-//        Tile(word: "Third")
-//    ]
 
     var body: some View {
         ZStack {
@@ -43,6 +35,18 @@ struct WordCanvas: View {
         }
         .onAppear {
             setInitialTilePositions()
+        }
+        .onChange(of: alphabetizer.message) { oldValue, newValue in
+            switch (oldValue, newValue) {
+                
+            case (.youWin, .instructions):
+                withAnimation {
+                    setInitialTilePositions()
+                }
+                
+                default : break
+            }
+            
         }
     }
 }
