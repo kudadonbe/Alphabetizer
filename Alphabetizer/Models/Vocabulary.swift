@@ -18,6 +18,22 @@ struct Vocabulary {
         }
         return newWords
     }
+    
+    static let icons: [String: String] = [
+        "Bear": "🐻",
+        "Duck": "🦆",
+        "Frog": "🐸",
+        "Fox": "🦊",
+        "Goose": "🦆",
+        "Lizard": "🦎",
+        "Panda": "🐼",
+        "Rabbit": "🐇",
+        "Sheep": "🐑",
+        "Crab": "🦀",
+        "Jellyfish": "🪼",
+        "Octopus": "🦑",
+        "Whale": "🐋",
+    ]
 }
 
 extension Vocabulary {

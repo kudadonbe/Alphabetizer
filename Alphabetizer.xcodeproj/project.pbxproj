@@ -18,6 +18,8 @@
 		28992CD12BEEDCB400CE7827 /* AlphabetizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28992CD02BEEDCB400CE7827 /* AlphabetizerApp.swift */; };
 		28992CD52BEEDCB600CE7827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28992CD42BEEDCB600CE7827 /* Assets.xcassets */; };
 		28992CD82BEEDCB600CE7827 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28992CD72BEEDCB600CE7827 /* Preview Assets.xcassets */; };
+		E746C5F82D4B601E00A2E659 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746C5F72D4B601E00A2E659 /* Message.swift */; };
+		E761058B2D4A65D1001553F1 /* Alphabetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E761058A2D4A65D1001553F1 /* Alphabetizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		28992CD02BEEDCB400CE7827 /* AlphabetizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetizerApp.swift; sourceTree = "<group>"; };
 		28992CD42BEEDCB600CE7827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28992CD72BEEDCB600CE7827 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E746C5F72D4B601E00A2E659 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E761058A2D4A65D1001553F1 /* Alphabetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alphabetizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 			children = (
 				281227092C12510700E710A5 /* Tile.swift */,
 				2812270A2C12510700E710A5 /* Vocabulary.swift */,
+				E761058A2D4A65D1001553F1 /* Alphabetizer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -62,6 +67,7 @@
 				2812270F2C12514600E710A5 /* MessageView.swift */,
 				281227102C12514600E710A5 /* ScoreView.swift */,
 				281227112C12514600E710A5 /* SubmitButton.swift */,
+				E746C5F72D4B601E00A2E659 /* Message.swift */,
 				281227122C12514600E710A5 /* TileView.swift */,
 				281227132C12514600E710A5 /* WordCanvas.swift */,
 			);
@@ -180,6 +186,8 @@
 				281227192C12514700E710A5 /* TileView.swift in Sources */,
 				281227152C12514700E710A5 /* ContentView.swift in Sources */,
 				2812270D2C12510700E710A5 /* Vocabulary.swift in Sources */,
+				E746C5F82D4B601E00A2E659 /* Message.swift in Sources */,
+				E761058B2D4A65D1001553F1 /* Alphabetizer.swift in Sources */,
 				281227182C12514700E710A5 /* SubmitButton.swift in Sources */,
 				281227162C12514700E710A5 /* MessageView.swift in Sources */,
 				281227172C12514700E710A5 /* ScoreView.swift in Sources */,

@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Tile: Identifiable {
+@Observable
+class Tile: Identifiable {
     let id = UUID()
 
     var word: String
@@ -21,6 +22,6 @@ struct Tile: Identifiable {
 
     var icon: String {
         // FIXME: Lookup an icon matching the word
-        "🤷"
+        Vocabulary.icons[word] ?? "🤷"
     }
 }

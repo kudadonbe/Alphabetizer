@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TileView: View {
-    @State var tile: Tile
+    var tile: Tile
 
     private let borderWidth = 5.0
 
@@ -47,6 +47,9 @@ struct TileView: View {
 }
 
 #Preview {
-    let tile = Tile(word: "Word")
+    let tile = Tile(word: "Goose")
     return TileView(tile: tile)
+        .onTapGesture {
+            tile.flipped.toggle()
+        }
 }
